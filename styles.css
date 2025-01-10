@@ -11,12 +11,15 @@
 #inicio .contenedor {
 	width:100% ;
 	height: auto;
+
 }
 #inicio .contenedor header{
 	width: 100%;
 	background-color: rgb(255, 255, 255);
 	padding-top: 10px;
 	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
 }
 #inicio .contenedor header.titulo {
 	width: 500px;
@@ -33,14 +36,16 @@
 .post {
 	width: 500px;
 	margin: 20px auto;
+	background-color: white;
+
 }
 
-.post.post-header{
+.post .post-header{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 10px;
+	padding: 10px;
 	box-sizing: border-box;
 }
 .post .post-body {
@@ -55,14 +60,13 @@
 	object-fit: cover;
 	object-position: center;
 }
-.post.post-footer {
+.post .post-footer {
 	width: 100%;
 	height: auto;
 	padding: 10px 10px;
 	box-sizing: border-box;
-	background-color: white;
 }
-.post.post-footer p {
+.post .post-footer p {
 	text-align: justify;
 	text-transform:capitalize;
 }
